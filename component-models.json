@@ -229,15 +229,27 @@
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
+        "label": "Image alt text",
+        "required": true
       },
       {
         "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "name": "textContent_text",
+        "title": "Text",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "textContent_cta",
+        "label": "CTA"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "textContent_ctaText",
+        "label": "CTA label"
       }
     ]
   }
